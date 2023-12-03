@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Kalkulator Segitiga</title>
 </head>
-
 <body>
-    <div class="calculator">
-        <h2>Kalkulator Segitiga</h2>
-        <label for="base">Alas:</label>
-        <input type="number" id="base" placeholder="Masukkan alas">
-
-        <label for="height">Tinggi:</label>
-        <input type="number" id="height" placeholder="Masukkan tinggi">
-
-        <button onclick="hitungLuas()">Hitung Luas</button>
-        <button onclick="hitungKeliling()">Hitung Keliling</button>
-
-        <p id="result"></p>
-    </div>
-
+    <header>
+        <h1 id="judul">SELAMAT DATANG DI KATIK</h1>
+    </header>
+    <main>
+        <article>
+                <p id="subjudul">Hai Sobat, Selamat Datang di KATIK!<br/>
+                KATIK adalah sebuah web untuk menghitung nilai luas dan keliling segitiga.<br/>
+                Selamat mencoba!</p>
+        </article>
+        <div class="kalkulator" id="kalkulator">
+            <article id="luasSegitiga">
+                <h3>LUAS SEGITIGA</h3>
+                <img src="asset/Polygon 3.png" alt="segitiga" width="100">
+                <div class="inputan" id="alas">
+                    <input type="number" id="inputAlas" placeholder="Masukkan alas">
+                </div>
+                <div class="inputan" id="tinggi">
+                    <input type="number" id="inputTinggi" placeholder="Masukkan tinggi">
+                </div>
+                <div>
+                    <button onclick="hitungLuas()">HITUNG</button>
+                    <button onclick="hitungLuas()">RESET</button>
+                </div>
+            </article>
+            <article id="keliling segitiga">
+                <h3>KELILING SEGITIGA</h3>
+                <img src="asset/Polygon 3.png" alt="segitiga" width="100">
+                <div class="inputan" id="sisi1">
+                    <input type="number" id="inputs1" placeholder="Masukkan sisi pertama">
+                    
+                </div>
+                <div class="inputan" id="sisi2">
+                    <input type="number" id="inputs2" placeholder="Masukkan sisi kedua">
+                    
+                </div>
+                <div class="inputan" id="sisi3">
+                    <input type="number" id="inputs3" placeholder="Masukkan sisi ketiga">
+                </div>
+                <div>
+                    <button onclick="hitungKeliling()">HITUNG</button>
+                    <button onclick="hitungLuas()">RESET</button>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <p>Kalkulator Segitiga &#169; 2023, Fedro MJ</p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 

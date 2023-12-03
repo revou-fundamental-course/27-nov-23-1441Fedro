@@ -1,0 +1,13 @@
+    <div class="calculator">
+        <h2>Kalkulator Segitiga</h2>
+        <label for="base">Alas:</label>
+        <input type="number" id="base" placeholder="Masukkan alas">
+
+        <label for="height">Tinggi:</label>
+        <input type="number" id="height" placeholder="Masukkan tinggi">
+
+        <button onclick="hitungLuas()">Hitung Luas</button>
+        <button onclick="hitungKeliling()">Hitung Keliling</button>
+
+        <p id="result"></p>
+    </div>
