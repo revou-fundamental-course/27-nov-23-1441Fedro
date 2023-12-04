@@ -49,3 +49,30 @@ footer {
     color: black;
     font-weight: bold;
 }
+
+.kalkulator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kalkulator > article {
+    margin: 50px 100px;
+    background-color: #ff7575;
+	height: 500px;
+	width: 400px;
+	border-radius: 15px;
+}
+
+article > h3, div {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .inputan {
+    width: 100px;
+    height: 20px;
+} */
