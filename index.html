@@ -19,7 +19,7 @@
         <div class="kalkulator" id="kalkulator">
             <article id="luasSegitiga">
                 <h3>LUAS SEGITIGA</h3>
-                <div class="gambar" id="gambar luas">
+                <div class="gambar" id="gambar_luas">
                     <img src="asset/Polygon 3.png" alt="segitiga" width="100">
                 </div>
                 <div class="inputan" id="alas">
@@ -30,7 +30,10 @@
                 </div>
                 <div class="tombol">
                     <button onclick="hitungLuas()" class="hitung">HITUNG</button>
-                    <button onclick="hitungLuas()" class="reset">RESET</button>
+                    <button onclick="hapusDataLuas()" class="reset">RESET</button>
+                </div>
+                <div class="result">
+                    <p id="hasilLuas">HASIL</p>
                 </div>
             </article>
             <article id="keliling segitiga">
@@ -51,7 +54,10 @@
                 </div>
                 <div class="tombol">
                     <button onclick="hitungKeliling()" class="hitung">HITUNG</button>
-                    <button onclick="hitungLuas()" class="reset">RESET</button>
+                    <button onclick="hapusDataKeliling()" class="reset">RESET</button>
+                </div>
+                <div class="result">
+                    <p id="hasilKeliling">HASIL</p>
                 </div>
             </article>
         </div>
