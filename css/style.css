@@ -72,7 +72,34 @@ article > h3, div {
     text-align: center;
 }
 
-/* .inputan {
-    width: 100px;
+.inputan > input {
+    width: 300px;
     height: 20px;
-} */
+    border: 0 solid #ff7575;
+    border-radius: 10px;
+    text-align: center;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.tombol > button{
+    width: 80px;
+    height: 40px;
+    margin: 0 20px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.hitung {
+    background-color: #032CFF;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.reset {
+    background-color: #00622D;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
